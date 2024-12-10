@@ -243,7 +243,7 @@
     <string name="message_on_my_way">Tôi đang trên đường.</string>
     <string name="message_cant_talk_right_now">Xin lỗi, tôi không thể nói chuyện ngay bây giờ.</string>
     <string name="remind_me">Nhắc nhở tôi</string>
-    <string name="mute">Câm</string>
+    <string name="mute">Im lặng</string>
 
     <!-- Relation types -->
     <string name="relation_g">Perthynas</string>
