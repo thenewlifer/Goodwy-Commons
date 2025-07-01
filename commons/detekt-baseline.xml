@@ -16,7 +16,6 @@
     <ID>ComplexCondition:MyRecyclerViewAdapter.kt$MyRecyclerViewAdapter$(select &amp;&amp; selectedKeys.contains(itemKey)) || (!select &amp;&amp; !selectedKeys.contains(itemKey))</ID>
     <ID>ComplexCondition:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter$(select &amp;&amp; selectedKeys.contains(itemKey)) || (!select &amp;&amp; !selectedKeys.contains(itemKey))</ID>
     <ID>ComplexCondition:PropertiesDialog.kt$PropertiesDialog$(isRPlus() &amp;&amp; Environment.isExternalStorageManager()) || (!isRPlus() &amp;&amp; activity.hasPermission(PERMISSION_WRITE_STORAGE))</ID>
-    <ID>ComplexCondition:RenamePatternTab.kt$RenamePatternTab$(!newName.contains(".") &amp;&amp; path.contains(".")) || (useMediaFileExtension &amp;&amp; !".${newName.substringAfterLast(".")}".isMediaFile())</ID>
     <ID>ConstructorParameterNaming:Contact.kt$Contact$var IMs: ArrayList&lt;IM&gt; = arrayListOf()</ID>
     <ID>ConstructorParameterNaming:LocalContact.kt$LocalContact$@ColumnInfo(name = "ims") var IMs: ArrayList&lt;IM&gt;</ID>
     <ID>CyclomaticComplexMethod:Activity-themes.kt$fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false)</ID>
@@ -51,7 +50,6 @@
     <ID>CyclomaticComplexMethod:MyRecyclerViewAdapter.kt$MyRecyclerViewAdapter$protected fun selectItemRange(from: Int, to: Int, min: Int, max: Int)</ID>
     <ID>CyclomaticComplexMethod:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter$protected fun selectItemRange(from: Int, to: Int, min: Int, max: Int)</ID>
     <ID>CyclomaticComplexMethod:PropertiesDialog.kt$PropertiesDialog$private fun addProperties(path: String)</ID>
-    <ID>CyclomaticComplexMethod:RenamePatternTab.kt$RenamePatternTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
     <ID>CyclomaticComplexMethod:RenameSimpleTab.kt$RenameSimpleTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
     <ID>CyclomaticComplexMethod:SimpleContactsHelper.kt$SimpleContactsHelper$private fun getContactNames(favoritesOnly: Boolean): List&lt;SimpleContact&gt;</ID>
     <ID>CyclomaticComplexMethod:VcfExporter.kt$VcfExporter$fun exportContacts( activity: BaseSimpleActivity, outputStream: OutputStream?, contacts: ArrayList&lt;Contact&gt;, showExportingToast: Boolean, callback: (result: ExportResult) -&gt; Unit )</ID>
@@ -235,7 +233,6 @@
     <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun WritePermissionText(text: Spanned)</ID>
     <ID>ImplicitDefaultLocale:BaseSimpleActivity.kt$BaseSimpleActivity$String.format("%s(%d).%s", file.nameWithoutExtension, fileIndex, file.extension)</ID>
     <ID>ImplicitDefaultLocale:Int.kt$String.format("#%06X", 0xFFFFFF and this)</ID>
-    <ID>ImplicitDefaultLocale:RenamePatternTab.kt$RenamePatternTab$String.format("%0${numbersCnt}d", currentIncrementalNumber)</ID>
     <ID>InstanceOfCheckForException:Activity.kt$e is SecurityException</ID>
     <ID>InstanceOfCheckForException:Activity.kt$exception is IOException</ID>
     <ID>InstanceOfCheckForException:Activity.kt$exception is java.nio.file.FileSystemException</ID>
@@ -274,9 +271,6 @@
     <ID>LongMethod:MyRecyclerView.kt$MyRecyclerView$override fun dispatchTouchEvent(ev: MotionEvent): Boolean</ID>
     <ID>LongMethod:PropertiesDialog.kt$PropertiesDialog$private fun addProperties(path: String)</ID>
     <ID>LongMethod:RadioGroupDialog.kt$@Composable fun RadioGroupAlertDialog( alertDialogState: AlertDialogState, items: ImmutableList&lt;RadioItem&gt;, modifier: Modifier = Modifier, selectedItemId: Int = -1, titleId: Int = 0, showOKButton: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (newValue: Any) -&gt; Unit )</ID>
-    <ID>LongMethod:RenamePatternTab.kt$RenamePatternTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
-    <ID>LongMethod:RenameSimpleTab.kt$RenameSimpleTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
-    <ID>LongMethod:RenameSimpleTab.kt$RenameSimpleTab$private fun renameAllFiles( paths: List&lt;String&gt;, appendString: Boolean, stringToAdd: String, android30Format: Android30RenameFormat, callback: (success: Boolean) -&gt; Unit )</ID>
     <ID>LongMethod:SimpleContactsHelper.kt$SimpleContactsHelper$private fun getContactNames(favoritesOnly: Boolean): List&lt;SimpleContact&gt;</ID>
     <ID>LongMethod:StoragePickerDialog.kt$StoragePickerDialog$private fun initDialog()</ID>
     <ID>LongMethod:String.kt$fun String.getMimeType(): String</ID>
@@ -1179,8 +1173,6 @@
     <ID>MagicNumber:PropertiesDialog.kt$PropertiesDialog$1000L</ID>
     <ID>MagicNumber:RadioGroupDialog.kt$3</ID>
     <ID>MagicNumber:RateStarsDialog.kt$500L</ID>
-    <ID>MagicNumber:RenamePatternTab.kt$RenamePatternTab$4</ID>
-    <ID>MagicNumber:RenamePatternTab.kt$RenamePatternTab$5</ID>
     <ID>MagicNumber:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$2</ID>
     <ID>MagicNumber:SimpleContactsHelper.kt$SimpleContactsHelper$30</ID>
     <ID>MagicNumber:SimpleContactsHelper.kt$SimpleContactsHelper$9</ID>
@@ -1557,9 +1549,6 @@
     <ID>MaxLineLength:RadioGroupDialog.kt$RadioGroupDialog$addView(radioButton, RadioGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))</ID>
     <ID>MaxLineLength:RadioGroupDialog.kt$private</ID>
     <ID>MaxLineLength:RateStarsDialog.kt$.</ID>
-    <ID>MaxLineLength:RenameItemsDialog.kt$RenameItemsDialog$val extension = if (fullName.contains(".")) ".${fullName.getFilenameExtension()}" else ""</ID>
-    <ID>MaxLineLength:RenamePatternTab.kt$RenamePatternTab$if</ID>
-    <ID>MaxLineLength:RenamePatternTab.kt$RenamePatternTab$val newFileName = getNewPath(path, useMediaFileExtension)?.getFilenameFromPath() ?: return@forEachIndexed</ID>
     <ID>MaxLineLength:Resources.kt$fun Resources.getColoredDrawable(drawableId: Int, colorId: Int, alpha: Int = 255)</ID>
     <ID>MaxLineLength:SecurityDialog.kt$SecurityDialog$it.text.toString().equals(root.context.resources.getString(R.string.pattern), true) -&gt; PROTECTION_PATTERN</ID>
     <ID>MaxLineLength:SecurityDialog.kt$SecurityDialog$it.text.toString().equals(root.context.resources.getString(R.string.pin), true) -&gt; PROTECTION_PIN</ID>
@@ -1667,8 +1656,6 @@
     <ID>ReturnCount:MyRecyclerView.kt$MyRecyclerView$override fun dispatchTouchEvent(ev: MotionEvent): Boolean</ID>
     <ID>ReturnCount:MyRecyclerViewAdapter.kt$MyRecyclerViewAdapter$protected fun toggleItemSelection(select: Boolean, pos: Int, updateTitle: Boolean = true)</ID>
     <ID>ReturnCount:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter$protected fun toggleItemSelection(select: Boolean, pos: Int, updateTitle: Boolean = true)</ID>
-    <ID>ReturnCount:RenamePatternTab.kt$RenamePatternTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
-    <ID>ReturnCount:RenamePatternTab.kt$RenamePatternTab$private fun getNewPath(path: String, useMediaFileExtension: Boolean): String?</ID>
     <ID>ReturnCount:RenameSimpleTab.kt$RenameSimpleTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
     <ID>ReturnCount:SimpleContactsHelper.kt$SimpleContactsHelper$fun getNameFromPhoneNumber(number: String): String</ID>
     <ID>ReturnCount:SimpleContactsHelper.kt$SimpleContactsHelper$fun getPhotoUriFromPhoneNumber(number: String): String</ID>
@@ -1694,7 +1681,6 @@
     <ID>SwallowedException:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$e: ActivityNotFoundException</ID>
     <ID>SwallowedException:MyTextInputLayout.kt$MyTextInputLayout$e: Exception</ID>
     <ID>SwallowedException:PropertiesDialog.kt$PropertiesDialog$e: Exception</ID>
-    <ID>SwallowedException:RenamePatternTab.kt$RenamePatternTab$e: Exception</ID>
     <ID>SwallowedException:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$e: ActivityNotFoundException</ID>
     <ID>SwallowedException:String.kt$e: Exception</ID>
     <ID>TooGenericExceptionCaught:AboutActivity.kt$AboutActivity$e: Exception</ID>
@@ -1717,8 +1703,6 @@
     <ID>TooGenericExceptionCaught:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$e: Exception</ID>
     <ID>TooGenericExceptionCaught:MyTextInputLayout.kt$MyTextInputLayout$e: Exception</ID>
     <ID>TooGenericExceptionCaught:PropertiesDialog.kt$PropertiesDialog$e: Exception</ID>
-    <ID>TooGenericExceptionCaught:RenamePatternTab.kt$RenamePatternTab$e: Exception</ID>
-    <ID>TooGenericExceptionCaught:RenameSimpleTab.kt$RenameSimpleTab$e: Exception</ID>
     <ID>TooGenericExceptionCaught:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$e: Exception</ID>
     <ID>TooGenericExceptionCaught:String.kt$e: Exception</ID>
     <ID>TooGenericExceptionCaught:VcfExporter.kt$VcfExporter$e: Exception</ID>
@@ -1990,9 +1974,6 @@
     <ID>WildcardImport:RateStarsDialog.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:RateStarsDialog.kt$import com.goodwy.commons.extensions.*</ID>
     <ID>WildcardImport:RenameDialog.kt$import com.goodwy.commons.extensions.*</ID>
-    <ID>WildcardImport:RenameItemDialog.kt$import com.goodwy.commons.extensions.*</ID>
-    <ID>WildcardImport:RenameItemsDialog.kt$import com.goodwy.commons.extensions.*</ID>
-    <ID>WildcardImport:RenamePatternTab.kt$import com.goodwy.commons.extensions.*</ID>
     <ID>WildcardImport:RenameSimpleTab.kt$import com.goodwy.commons.extensions.*</ID>
     <ID>WildcardImport:SecurityDialog.kt$import com.goodwy.commons.extensions.*</ID>
     <ID>WildcardImport:SecurityDialog.kt$import com.goodwy.commons.helpers.*</ID>

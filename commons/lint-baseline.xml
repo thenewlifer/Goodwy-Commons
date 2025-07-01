@@ -161,16 +161,6 @@
             column="71"/>
     </issue>
 
-    <issue
-        id="NewApi"
-        message="Call requires API level 30 (current min is 23): `android.content.ContentResolver#delete`"
-        errorLine1="                                    activity.contentResolver.delete(uri, null)"
-        errorLine2="                                                             ~~~~~~">
-        <location
-            file="src/main/kotlin/com/goodwy/commons/views/RenamePatternTab.kt"
-            line="217"
-            column="62"/>
-    </issue>
 
     <issue
         id="NewApi"
@@ -17097,16 +17087,6 @@
             column="18"/>
     </issue>
 
-    <issue
-        id="ClickableViewAccessibility"
-        message="Custom view `MyViewPager` overrides `onTouchEvent` but not `performClick`"
-        errorLine1="    override fun onTouchEvent(ev: MotionEvent): Boolean {"
-        errorLine2="                 ~~~~~~~~~~~~">
-        <location
-            file="src/main/kotlin/com/goodwy/commons/views/MyViewPager.kt"
-            line="22"
-            column="18"/>
-    </issue>
 
     <issue
         id="AccessibilityWindowStateChangedEvent"
