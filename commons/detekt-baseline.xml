@@ -1711,7 +1711,6 @@
     <ID>TooGenericExceptionThrown:LineColorPickerDialog.kt$LineColorPickerDialog$throw RuntimeException("Invalid color id $index")</ID>
     <ID>TooGenericExceptionThrown:LineColorPickerDialog.kt$throw RuntimeException("Invalid color id $index")</ID>
     <ID>TooGenericExceptionThrown:PasswordTypesAdapter.kt$PasswordTypesAdapter$throw RuntimeException("Only 3 tabs allowed")</ID>
-    <ID>TooGenericExceptionThrown:RenameAdapter.kt$RenameAdapter$throw RuntimeException("Only 2 tabs allowed")</ID>
     <ID>TooManyFunctions:AboutActivity.kt$AboutActivity : BaseComposeActivity</ID>
     <ID>TooManyFunctions:Activity.kt$com.goodwy.commons.extensions.Activity.kt</ID>
     <ID>TooManyFunctions:BaseConfig.kt$BaseConfig</ID>
