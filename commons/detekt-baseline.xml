@@ -1557,9 +1557,6 @@
     <ID>MaxLineLength:RadioGroupDialog.kt$RadioGroupDialog$addView(radioButton, RadioGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))</ID>
     <ID>MaxLineLength:RadioGroupDialog.kt$private</ID>
     <ID>MaxLineLength:RateStarsDialog.kt$.</ID>
-    <ID>MaxLineLength:RenameDialog.kt$RenameDialog$alertDialog.window?.clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM)</ID>
-    <ID>MaxLineLength:RenameDialog.kt$RenameDialog$class</ID>
-    <ID>MaxLineLength:RenameDialog.kt$RenameDialog$it.text.toString().equals(root.context.resources.getString(R.string.simple_renaming), true) -&gt; RENAME_SIMPLE</ID>
     <ID>MaxLineLength:RenameItemsDialog.kt$RenameItemsDialog$val extension = if (fullName.contains(".")) ".${fullName.getFilenameExtension()}" else ""</ID>
     <ID>MaxLineLength:RenamePatternTab.kt$RenamePatternTab$if</ID>
     <ID>MaxLineLength:RenamePatternTab.kt$RenamePatternTab$val newFileName = getNewPath(path, useMediaFileExtension)?.getFilenameFromPath() ?: return@forEachIndexed</ID>
